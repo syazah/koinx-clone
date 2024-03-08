@@ -1,0 +1,46 @@
+.chart {
+  width: 100%;
+  padding: 1rem;
+}
+.days {
+  display: flex;
+  gap: 1rem;
+}
+.days h5 {
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  padding: 0.1rem 0rem;
+  border: solid #5a79e8e6 2px;
+  color: black;
+  cursor: pointer;
+}
+.chartheader {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 768px) {
+  .chart {
+    width: 100%;
+    padding: 1rem;
+  }
+  .days {
+    display: flex;
+    gap: 1rem;
+  }
+  .days h5 {
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    padding: 0.1rem 0rem;
+    border: solid #5a79e8e6 2px;
+    color: black;
+    cursor: pointer;
+  }
+  .chartheader {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}

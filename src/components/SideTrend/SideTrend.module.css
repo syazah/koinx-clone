@@ -1,0 +1,62 @@
+@import "/src/vars.css";
+.trend {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  background-color: var(--color-secondary);
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  gap: 2rem;
+}
+.reference {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.reference select {
+  border: none;
+  background-color: rgb(237, 237, 237);
+  padding: 0.5rem;
+}
+.listdiv {
+  display: flex;
+  flex-direction: column;
+  gap: 0rem;
+}
+.list {
+  display: flex;
+  padding: 1rem 0rem;
+  justify-content: space-between;
+  align-items: center;
+}
+.list div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.list div img {
+  width: 32px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.list div h4 {
+  color: rgb(85, 85, 85);
+}
+.range {
+  padding: 0.5rem;
+  border-radius: 10px;
+  color: #14b079;
+  background-color: #ebf9f4;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}

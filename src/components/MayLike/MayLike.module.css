@@ -1,0 +1,5 @@
+@import "/src/vars.css";
+.container {
+  background-color: var(--color-secondary);
+  padding: 2rem;
+}

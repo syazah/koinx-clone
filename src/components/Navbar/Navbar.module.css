@@ -1,0 +1,105 @@
+@import "/src/vars.css";
+* {
+  list-style: none;
+  text-decoration: none;
+}
+.navbar {
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0rem 2rem;
+  background-color: var(--color-secondary);
+}
+.navbar ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+}
+.navbar ul li a {
+  font-weight: 600;
+}
+.button {
+  background-image: linear-gradient(
+    to right,
+    var(--color-tertiary),
+    var(--color-quad)
+  );
+  padding: 0.5rem 0rem;
+  width: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.searchlist {
+  background-color: white;
+  color: black;
+  position: absolute;
+  left: 0;
+  top: 100%;
+  width: 100%;
+  display: flex;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.searchlist li {
+  width: 100%;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+.searchlist li:hover {
+  width: 100%;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  background-color: #e8f4fd;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    width: 100%;
+  }
+  .navbar ul li {
+    display: none;
+  }
+  .button {
+    display: none;
+  }
+  .searchlist {
+    background-color: white;
+    color: black;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    width: 100%;
+    display: flex;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+  .searchlist li {
+    width: 100%;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+  }
+  .searchlist li:hover {
+    width: 100%;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    background-color: #e8f4fd;
+  }
+}

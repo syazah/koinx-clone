@@ -1,0 +1,83 @@
+@import "/src/vars.css";
+.contwo {
+  width: 100%;
+  background-color: var(--color-secondary);
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  padding: 2rem;
+}
+.header {
+  display: flex;
+  justify-content: start;
+  cursor: pointer;
+  gap: 1rem;
+  align-items: center;
+  color: rgb(39, 39, 39);
+}
+.performance {
+  display: flex;
+  flex-direction: column;
+  padding: 3rem 0rem;
+}
+.rangecontainer {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 2rem 0rem;
+}
+.range {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: rgb(60, 60, 60);
+}
+.low {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  gap: 0.5rem;
+}
+.colordiv {
+  width: 60%;
+  height: 5px;
+  border-radius: 10px;
+  background-image: linear-gradient(
+    to right,
+    rgb(255, 24, 24),
+    rgb(255, 41, 25),
+    rgb(255, 82, 24),
+    rgb(255, 139, 24),
+    rgb(255, 240, 24),
+    rgb(193, 255, 24),
+    rgb(116, 255, 24),
+    rgb(24, 255, 24)
+  );
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.fundamental {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 0rem;
+  gap: 1rem;
+}
+.analytics ul {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.analytics ul li {
+  display: flex;
+  justify-content: space-between;
+}
+.analytics ul h5:nth-child(1) {
+  color: rgb(60, 60, 60);
+}

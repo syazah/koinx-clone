@@ -1,0 +1,115 @@
+@import "/src/vars.css";
+.conthree {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  width: 100%;
+  padding: 1rem;
+  background-color: var(--color-secondary);
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.swipe {
+  width: 100%;
+  cursor: grab;
+}
+.slide {
+  background-color: #e8f4fd;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.imgcontainer {
+  width: 10%;
+}
+.textcontainer {
+  width: 90%;
+  text-align: justify;
+}
+.analysisest {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  align-items: center;
+  gap: 2rem;
+}
+
+.circle {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  background-color: #ebf9f4;
+  color: #0fba83;
+}
+.stats {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+}
+.stats div {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 1rem;
+}
+.stats div h4 {
+  width: 40px;
+}
+.progress1 {
+  height: 8px;
+  border-radius: 1px;
+  background-color: #0fba83;
+  -webkit-border-radius: 1px;
+  -moz-border-radius: 1px;
+  -ms-border-radius: 1px;
+  -o-border-radius: 1px;
+}
+.progress2 {
+  height: 8px;
+  border-radius: 1px;
+  background-color: #c7c8ce;
+  -webkit-border-radius: 1px;
+  -moz-border-radius: 1px;
+  -ms-border-radius: 1px;
+  -o-border-radius: 1px;
+}
+.progress3 {
+  height: 8px;
+  border-radius: 1px;
+  background-color: #f7324c;
+  -webkit-border-radius: 1px;
+  -moz-border-radius: 1px;
+  -ms-border-radius: 1px;
+  -o-border-radius: 1px;
+}
+.chartheader {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+}
+.chartheader h4 {
+  color: rgb(90, 90, 90);
+}
+.chartContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
